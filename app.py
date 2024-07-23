@@ -131,3 +131,19 @@ def delete_user(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+#User table
+"""
+
+CREATE TABLE "User" (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(60) NOT NULL,
+    phone_number VARCHAR(15) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    modified_by VARCHAR(50),
+    modified_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+"""

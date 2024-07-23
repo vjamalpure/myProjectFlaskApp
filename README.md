@@ -36,7 +36,7 @@ This is a Flask application for managing user information. It includes features 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-repo/flask-user-management.git
+   git clone https://github.com/vjamalpure/myProjectFlaskApp.git
    cd flask-user-management
 
 
